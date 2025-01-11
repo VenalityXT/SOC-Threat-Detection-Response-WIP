@@ -18,8 +18,8 @@ Tools Used: Splunk, Ansible
 ## Key Achievements:                                                                                                    
   • Successfully deployed a SOC environment with Splunk for real-time monitoring of security data.                    
   • Created 3 dashboards to visualize real-time security data and enhance incident detection.                    
-  • Configured 5 automated alerts in Splunk to detect and respond to potential security incidents, improving monitoring          efficiency.
-  • Automated the configuration of two critical system components using Ansible, reducing the manual intervention required       for incident response.                                        
+  • Configured 5 automated alerts in Splunk to detect and respond to potential security incidents, improving monitoring          efficiency.                                                                                                    
+  • Automated the configuration of two critical system components using Ansible, reducing the manual intervention required       for incident response.                                                                                                  
   • Streamlined the threat detection and response process by integrating Splunk with Ansible for automated actions.          
 
 ## Skills Developed:                                                                                                    
