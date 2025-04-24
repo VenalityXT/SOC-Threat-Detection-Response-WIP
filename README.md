@@ -50,8 +50,8 @@ This lab simulates a functional SOC leveraging Splunk for real-time log ingestio
 - Incorporate user behavior analytics to identify compromised credentials  
 - Add multi-tenant log source simulation to test detection at scale  
 
-```
 ## Repository Structure
+```
 SOC-Threat-Detection-Response/
 ├── Ansible-Playbooks/  
 │   └── playbook_auto_response.yml  
