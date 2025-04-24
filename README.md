@@ -1,36 +1,70 @@
 # SOC Threat Detection & Response Lab
-This repository contains the findings and results of a Security Operations Center (SOC) threat detection and response project designed to simulate real-world incident detection and response workflows. The project involved the configuration of Splunk for log monitoring, the creation of dashboards for data visualization, and the automation of incident response workflows using Ansible.
 
-===========================================================================
+This repository documents the simulation of a modern Security Operations Center (SOC) using Splunk and Ansible to emulate real-world detection, alerting, and automated incident response workflows. It showcases practical capabilities in security monitoring, data analysis, and security automation.
 
-### Project Overview                                                            
-Target: SOC environment for monitoring and analyzing security data                    
-Tools Used: Splunk, Ansible                                                                                
+## Table of Contents
+- [Project Overview](#project-overview)  
+- [Technologies Used](#technologies-used)  
+- [Objectives](#objectives)  
+- [Key Achievements](#key-achievements)  
+- [Skills Demonstrated](#skills-demonstrated)  
+- [Recommendations for Future Enhancements](#recommendations-for-future-enhancements)  
+- [Repository Structure](#repository-structure)  
 
-===========================================================================
+## Project Overview
+This lab simulates a functional SOC leveraging Splunk for real-time log ingestion and analysis, along with Ansible for automating response actions. It is designed to validate technical proficiency in detecting and responding to security incidents using scalable and realistic tooling.
 
-## Objectives:                                                                                                    
-  • Configure and deploy a SOC environment using Splunk for real-time data monitoring and threat detection.          
-  • Create and configure dashboards in Splunk to visualize security-related events.                              
-  • Set up automated alerts in Splunk for quick detection of potential incidents.                                        
-  • Automate security incident response workflows with Ansible to improve efficiency in handling alerts.          
+[Insert Image of SOC Workflow or Splunk Dashboard Here]  
 
-## Key Achievements:                                                                                                    
-  • Successfully deployed a SOC environment with Splunk for real-time monitoring of security data.                    
-  • Created 3 dashboards to visualize real-time security data and enhance incident detection.                    
-  • Configured 5 automated alerts in Splunk to detect and respond to potential security incidents, improving monitoring          efficiency.                                                                                                    
-  • Automated the configuration of two critical system components using Ansible, reducing the manual intervention required       for incident response.                                                                                                  
-  • Streamlined the threat detection and response process by integrating Splunk with Ansible for automated actions.          
+## Technologies Used
+- Splunk – Log aggregation, alerting, and dashboarding  
+- Ansible – Automated configuration and incident response  
+- Wireshark – Packet analysis  
+- Linux (Ubuntu) – Host OS for deploying scripts and agents  
 
-## Skills Developed:                                                                                                    
-  • SOC environment configuration and management using Splunk.                                                            
-  • Real-time threat monitoring and incident detection through the creation of dashboards and automated alerts.          
-  • Automation of incident response workflows using Ansible to reduce response time and enhance efficiency.          
-  • Data visualization in Splunk to present security metrics and trends clearly.                              
-  • Integration of automation tools (Splunk + Ansible) to improve response times in a security operations setting.          
+## Objectives
+- Configure a centralized SOC environment for ingesting and analyzing security data  
+- Build real-time Splunk dashboards to visualize trends and detect anomalies  
+- Define alert conditions and automate triggers based on identified threats  
+- Integrate Ansible for responsive actions based on triggered alerts  
 
-## Recommendations for Improving Threat Detection & Response:                                                            
-  • Regularly update dashboards and alerts to adapt to new security threats and vulnerabilities.                    
-  • Automate more aspects of incident response to minimize human intervention and speed up the response time.          
-  • Integrate threat intelligence feeds into Splunk for enhanced detection of emerging threats.                    
-  • Test incident response workflows regularly to ensure preparedness and efficiency in a live environment.          
+## Key Achievements
+- Deployed and configured a fully operational SOC simulation with Splunk Cloud  
+- Created three actionable dashboards to monitor failed logins, unusual access times, and geolocation-based anomalies  
+- Configured five Splunk alerts to trigger notifications and auto-responses to simulated threats  
+- Developed and executed Ansible playbooks that automated containment tasks based on alert outputs  
+- Demonstrated full cycle from log ingestion to response execution  
+
+[Insert Image of Splunk Dashboard with Alert Example Here]  
+
+## Skills Demonstrated
+- Proficient use of Splunk for threat hunting and visualization  
+- Use of regular expressions to normalize and extract data from varied log sources  
+- Development of event types and tagging logic for enriched searching  
+- Automation of detection-to-response pipelines with Ansible  
+- Visualization and reporting of key incident response metrics  
+
+## Recommendations for Future Enhancements
+- Integrate threat intelligence feeds to enrich log context and improve correlation  
+- Expand automation to include remediation actions beyond containment  
+- Incorporate user behavior analytics to identify compromised credentials  
+- Add multi-tenant log source simulation to test detection at scale  
+
+```
+## Repository Structure
+SOC-Threat-Detection-Response/
+├── Ansible-Playbooks/  
+│   └── playbook_auto_response.yml  
+├── Configurations/  
+│   └── splunk_inputs.conf  
+├── Documentation/  
+│   ├── Splunk_Dashboard_Setup.md  
+│   └── Event_Types_Tagging_Guide.md  
+├── Logs-Samples/  
+│   ├── auth_log_sample.log  
+│   └── access_combined.log  
+├── Splunk-Dashboards/  
+│   ├── login_failures_dashboard.xml  
+│   └── anomaly_geolocation_dashboard.xml  
+├── README.md
+```
