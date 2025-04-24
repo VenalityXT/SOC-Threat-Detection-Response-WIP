@@ -44,12 +44,6 @@ This lab simulates a functional SOC leveraging Splunk for real-time log ingestio
 - **Real-Time Monitoring and Reporting**: Configured and maintained dashboards that updated live data every 5 minutes, providing continuous visibility into security posture  
 - **Efficient Security Operations**: Reduced manual triage time by over 50% by streamlining alert-to-response workflows through integrations  
 
-## Recommendations for Future Enhancements
-- Integrate threat intelligence feeds to enrich log context and improve correlation  
-- Expand automation to include remediation actions beyond containment  
-- Incorporate user behavior analytics to identify compromised credentials  
-- Add multi-tenant log source simulation to test detection at scale  
-
 ## Repository Structure
 ```
 SOC-Threat-Detection-Response/  
@@ -68,3 +62,17 @@ SOC-Threat-Detection-Response/
 │   └── anomaly_geolocation_dashboard.xml  
 ├── README.md
 ```
+
+---
+
+## Recommendations for Future Enhancements
+- Integrate threat intelligence feeds to enrich log context and improve correlation  
+- Expand automation to include remediation actions beyond containment  
+- Incorporate user behavior analytics to identify compromised credentials  
+- Add multi-tenant log source simulation to test detection at scale  
+
+---
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
