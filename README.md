@@ -78,7 +78,7 @@ This lab simulates a functional SOC leveraging Splunk for real-time log ingestio
 - Developed field extractions and transforms to normalize log fields.
 
 ### 3. Dashboard Development
-- Dashboard 1: Failed login attempt summary
+- Dashboard 1: Failed login attempt summary 
 - Dashboard 2: Geolocation anomalies using IP data
 - Dashboard 3: User behavior trends over time
 
